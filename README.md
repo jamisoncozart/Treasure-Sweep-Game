@@ -95,19 +95,28 @@ _Add the MySQL environment variable to the System PATH. Instructions for Windows
 ### Clone this repository
 
 _Enter the following commands in Terminal (macOS) or PowerShell (Windows):_
-* ``cd desktop``
-* ``git clone`` followed by the URL to this repository
-* ``cd TreasureSweepGame.Solution/TreasureSweepGame``
+```
+cd desktop
+git clone https://github.com/jamisoncozart/Treasure-Sweep-Game
+cd Treasure-Sweep-Game/TreasureSweepGame
+```
 
-_Confirm that you have navigated to the TreasureSweepGame directory (e.g., by entering the command_ ``pwd`` _in Terminal)._
+_Confirm that you have navigated to the TreasureSweepGame directory 
+```
+pwd
+```
 
-_Recreate the ``treasure_sweep`` database using the following commands (in Terminal on macOS or PowerShell on Windows) at the root of the TreasureSweepGame directory:_
-* ``dotnet restore``
-* ``dotnet build``
-* ``dotnet ef database update``
-
+_Recreate the `treasure_sweep` database using the following commands (in Terminal on macOS or PowerShell on Windows) at the root of the TreasureSweepGame directory:_
+```
+dotnet restore
+dotnet build
+dotnet ef database update
+```
 _Run this application by entering the following command in Terminal (macOS) or PowerShell (Windows) at the root of the TreasureSweepGame directory:_
-* ``dotnet run`` or ``dotnet watch run``
+```
+dotnet run
+dotnet watch run
+```
 
 _To view/edit the source code of this application, open the contents of the TreasureSweepGame.Solution directory in a text editor or IDE of your choice (e.g., to open all contents of the directory in Visual Studio Code on macOS, enter the command_ ``code .`` _in Terminal at the root of the TreasureSweepGame.Solution directory)._
 

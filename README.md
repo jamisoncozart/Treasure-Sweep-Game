@@ -4,6 +4,8 @@
 
 #### By: **Michelle Morin**, **Jamison Cozart**, **Dusty McCord**, **Patrick Kille** April 6-9, 2020
 
+[Picture of UI](https://i.imgur.com/0F61K6i.png)
+
 ## Description
 _This application allows users to play Treasure Sweep, a battleship-esque game for uncovering hidden treasure on an opponent's beach rather than sinking their ships. This application is available to play on [Heroku](http://treasuresweepgame.herokuapp.com/)!_
 
